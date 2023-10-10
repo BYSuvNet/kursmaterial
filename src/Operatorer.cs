@@ -4,6 +4,7 @@ class Operatorer
     {
         //Tilldelningsoperatorer:
         int a = 5; // likamedtecken är tilldelningsoperatorn
+        Console.WriteLine($"a: {a}");
 
         //Aritmetiska operatorer (+, -, *, /, %)
         int sum = 5 + 10;  // 15
