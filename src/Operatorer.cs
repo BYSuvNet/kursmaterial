@@ -2,8 +2,8 @@ class Operatorer
 {
     static public void Run()
     {
-        //Tilldelningsoperatorer:
-        int a = 5; // likamedtecken är tilldelningsoperatorn
+        //Tilldelningsoperatorer: (likamedtecknet är tilldelningsoperatorn som tilldelar värdet 5 till a)
+        int a = 5;
         Console.WriteLine($"a: {a}");
 
         //Aritmetiska operatorer (+, -, *, /, %)
