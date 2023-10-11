@@ -1,4 +1,4 @@
 ﻿// Operatorer.Run();
-OOP.Run();
+// OOP.Run();
 // Casting.Run();
-// Enums.Run();
+Enums.Run();
