@@ -52,4 +52,26 @@
 [ ] Entity Framework Core
 [ ] Blazor
 
+KEYWORDS
 
+abstract		as				base		bool		break
+byte			case			catch		char		
+class			const			continue	decimal		default
+delegate		do				double		else		enum
+event			explicit		extern		false		finally
+fixed			float			for			foreach		goto
+if				implicit		in			int			interface
+internal		is				    		long		namespace
+new			    null			object		operator	out
+override		params		    private		protected	public
+readonly		ref			    return		sbyte		sealed
+short			sizeof		    static		string      struct		    
+switch		    this		    throw		true        try			    
+typeof		    uint		    ulong		ushort		using		
+virtual		    void            while
+
+{		}		[		]		(		)		.		,		:		;
++		-		*		/		%		&		|		^		!		~
+=		<		>		?		??		::		++		--		&&		||
+->		==		!=		<=		>=		+=		-=		*=		/=		%=
+&=		|=		^=		<<		<<=	=>
