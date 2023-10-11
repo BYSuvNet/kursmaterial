@@ -23,17 +23,21 @@ class Casting
         //Sen finns det explicit (manuell) casting:
         {
             float f = 1.23f;
-            Console.WriteLine($"f: {f}");
             //från float till int tappar vi information
-
-            //Exempel som delar int med int och sen castar:
+            int i = (int)f;
+            Console.WriteLine($"f: {f} i: {i}");
+            //Exempel som delar int med int och sen castar: (imp. och exp. casting)
+            Console.WriteLine((float)1 / 2);
         }
 
         //Fler exempel på casting:
         {
-            //sätt en int till 65 och skriv ut
+            //sätt en int till 65
+            int i = 65;
             //sätt en char till A och skriv ut
-            //sätt en char till en int, casta och skriv ut
+            char c = 'A';
+            Console.WriteLine($"i: {i}   c: {c}");
+            Console.WriteLine($"i: {(char)i}   c: {(int)c}");
         }
 
         //Casting och egna objekt
