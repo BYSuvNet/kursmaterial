@@ -10,26 +10,57 @@ class Enums
     */
 
     //En enum för dagarnas namn. Enklare att förstå än att använda siffror.
-    enum Day
-    {
-        Monday,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
-    }
 
     static public void Run()
     {
+        Player p = new Player();
+        p.Position = Position.Goalkeeper;
+
+        if (p.Position == Position.Goalkeeper)
+        {
+
+        }
+
         Day today = Day.Monday;
+
         Console.WriteLine(today);
-        Console.WriteLine((int)today);
         Console.WriteLine(today.ToString());
+
+        Console.WriteLine((int)today);
         Console.WriteLine((int)Day.Sunday);
-        Console.WriteLine((Day)6);
+
+        //Från string via ReadLine, 
+        //till int via Parse 
+        //till Day-enum via casting
+        int i = int.Parse(Console.ReadLine());
+        Console.WriteLine((Day)i);
 
         //Inbyggda enums
+        Console.BackgroundColor = ConsoleColor.Green;
     }
+}
+
+enum Day
+{
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
+}
+
+enum Position
+{
+    Forward,
+    Defender,
+    Halfback,
+    Midfielder,
+    Goalkeeper
+}
+
+class Player
+{
+    public Position Position { get; set; }
 }
